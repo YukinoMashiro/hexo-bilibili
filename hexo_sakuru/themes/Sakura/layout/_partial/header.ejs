@@ -11,42 +11,47 @@
       </span>
     </div>
     <div class="searchbox search-form-submit">
-      <i class="iconfont js-toggle-search iconsearch icon-search">
-      </i>
+      <i class="iconfont js-toggle-search iconsearch icon-search"> </i>
     </div>
     <div id="show-nav" class="showNav mobile-fit">
-      <div class="line line1">
-      </div>
-      <div class="line line2">
-      </div>
-      <div class="line line3">
-      </div>
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
     </div>
     <div class="lower-cantiner">
       <div class="lower">
         <nav class="mobile-fit-control hide">
+          <!--yukino:头部的menu部分，首页，归档，清单，友人帐...-->
           <ul id="menu-new" class="menu">
             <% for (var menu in theme.menus){ %>
-              <li>
-                <a href="<%- url_for(theme.menus[menu].path) %>">
-                  <span class="faa-parent animated-hover">
-                    <i class="fa  <%= theme.menus[menu].fa %>" aria-hidden="true"></i>
-                    <%= menu %>
-                  </span>
-                </a>
-                <% if (theme.menus[menu].submenus) { %>
-                  <ul class="sub-menu">
-                    <% for (var submenu in theme.menus[menu].submenus){ %>
-                      <li>
-                        <a href="<%- url_for(theme.menus[menu].submenus[submenu].path) %>">
-                          <i class="fa <%= theme.menus[menu].submenus[submenu].fa %>" aria-hidden="true"></i>
-                          <%= submenu %>
-                        </a>
-                      </li>
-                    <% } %>
-                  </ul>
+            <li>
+              <a href="<%- url_for(theme.menus[menu].path) %>">
+                <span class="faa-parent animated-hover">
+                  <i
+                    class="fa <%= theme.menus[menu].fa %>"
+                    aria-hidden="true"
+                  ></i>
+                  <%= menu %>
+                </span>
+              </a>
+              <% if (theme.menus[menu].submenus) { %>
+              <ul class="sub-menu">
+                <% for (var submenu in theme.menus[menu].submenus){ %>
+                <li>
+                  <a
+                    href="<%- url_for(theme.menus[menu].submenus[submenu].path) %>"
+                  >
+                    <i
+                      class="fa <%= theme.menus[menu].submenus[submenu].fa %>"
+                      aria-hidden="true"
+                    ></i>
+                    <%= submenu %>
+                  </a>
+                </li>
                 <% } %>
-              </li>
+              </ul>
+              <% } %>
+            </li>
             <% } %>
           </ul>
         </nav>

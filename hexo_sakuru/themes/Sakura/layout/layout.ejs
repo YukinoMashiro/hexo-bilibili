@@ -5,11 +5,14 @@
   </div>
   <a href="#" class="cd-top faa-float animated"></a>
   <section id="main-container">
+    <!--yukino:显示多种社交联系方式,视频播放器,首页下滑箭头-->
     <%- partial('_partial/headertop', null, {cache: !config.relative_link}) %>
     <div id="page" class="site wrapper">
+      <!--yukino:头部的menu部分，首页，归档，清单，友人帐...-->
       <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
       <%- body %>
-    </div>    
+    </div> 
+    <!--站内搜索模块-->   
     <%- partial('_widget/search/insight') %>
     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
     <div class="openNav no-select" style="height: 50px;">
