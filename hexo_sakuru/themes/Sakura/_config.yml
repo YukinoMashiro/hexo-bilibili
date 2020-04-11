@@ -82,20 +82,20 @@ startdash:
   - {
       url: /theme-sakura/,
       title: Sakura,
-      desc: 本站 hexo 主题,
-      img: /img/startdash/sakura.md.png,
+      desc: 基于hexo,
+      img: /img/bilibili/startdash/1.jpg,
     }
   - {
-      url: http://space.bilibili.com/271849279,
-      title: Bilibili,
-      desc: 博主的b站视频,
-      img: /img/startdash/bilibili.jpg,
+      url: https://github.com/Yukino831143,
+      title: github,
+      desc: 博主的github,
+      img: /img/bilibili/startdash/2.jpg,
     }
   - {
       url: /,
-      title: yukino的万事屋,
-      desc: 技术服务,
-      img: /img/startdash/wangshiwu.jpg,
+      title: ACG,
+      desc: 二次元,
+      img: /img/bilibili/startdash/3.jpg,
     }
 
 # your site build time or founded date
@@ -154,5 +154,5 @@ aplayer:
 
 # Valine
 valine: true
-v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
-v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+v_appId: 4asHXF3SLvCKEfXTHBmYKjpi-MdYXbMMI
+v_appKey: xXS4NNFP7X7Su7AIwt86pHXj
