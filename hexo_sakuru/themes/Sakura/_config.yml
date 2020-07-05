@@ -1,18 +1,18 @@
 # site name
-prefixName: yukino的小站
-siteName: yukino
+prefixName: Yukino
+siteName: 
 # favicon and site master avatar
 favicon: /images/favicon.ico
 # avatar需要换，太丑了
 avatar: /img/custom/avatar.jpg
 url: /
-description: 月がきれい
+description: 走慢一点，好让落下的灵魂赶上来～
 cdn: https://cdn.jsdelivr.net/gh/Yukino831143/CDN
 pjax: 1
 # 1开启
 mathjax: 0
 
-notice: hexo-Sakura主题正在魔改...
+notice: orgin:hexo-Sakura  modify by @Yukino
 lazyloadImg: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
@@ -23,6 +23,7 @@ menus:
       fa: fa-archive faa-shake,
       submenus:
         {
+          #指定 hexo_sakuru/public/ 下资源读取，fa是配置的对应图标
           技术: { path: /categories/技术/, fa: fa-code },
           生活: { path: /categories/生活/, fa: fa-file-text-o },
           资源: { path: /categories/资源/, fa: fa-cloud-download },
