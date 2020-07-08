@@ -7179,10 +7179,18 @@ to {
 .the-feature a:hover {
     text-decoration:none
 }
+/* modify by yukino,make dash pic keep in center*/
+.the-feature img {
+    height: 60%;
+    width: 60%;
+    margin-left: 50px;
+}
+/*
 .the-feature img {
     height:160px;
     width:257px
 }
+*/
 .the-feature.from_left_and_right {
     position:relative;
     height:160px;
