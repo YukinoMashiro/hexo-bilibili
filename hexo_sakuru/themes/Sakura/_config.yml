@@ -124,8 +124,8 @@ msocial:
 donate:
   paypal: /#
   alipay: /img/yukino/appreciation/aplipay.png
-  wechat: /img/yukino/appreciation/wechat.JPG
-  wechatSQ: /img/yukino/appreciation/wechat.JPG
+  wechat: /img/yukino/appreciation/aplipay.png
+  wechatSQ: /img/yukino/appreciation/aplipay.png
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
