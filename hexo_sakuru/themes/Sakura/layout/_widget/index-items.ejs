@@ -1,9 +1,15 @@
 <% var external_link = config.external_link ? '_blank' : '_self'; %>
 <article <% if (index%2 == 0){ %> class="post post-list-thumb post-list-thumb-left" <% } %> class="post post-list-thumb" itemscope="" itemtype="https://schema.org/BlogPosting">
-
+  <% 
+  function Random(min, max) {
+    return Math.ceil(Math.random() * (max - min)) + min;
+  }
+  cover_num = Random(1,26);/*[1,26],图片现在就是26张*/
+  /* console.log(cover_num); */  //可以将结果打印在terminal上，而非网页console
+  %>
   <div class="post-thumb">
     <a href="<%- url_for(post.path) %>">
-      <img class="lazyload" onerror="imgError(this,3)" src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] || 'https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/image-404.png' %>">
+      <img class="lazyload" onerror="imgError(this,3)" src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] + cover_num + '.png' || 'https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/image-404.png' %>">
     </a>
   </div>
   <div class="post-content-wrap">
