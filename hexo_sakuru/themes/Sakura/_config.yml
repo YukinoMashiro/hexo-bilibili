@@ -1,6 +1,6 @@
 # site name
 prefixName: Yukino
-siteName: 
+siteName:
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: /img/yukino/avatar/a26.ico
@@ -11,26 +11,20 @@ pjax: 1
 # 1开启
 mathjax: 0
 
-notice: orgin:hexo-Sakura  modify by @Yukino
+notice: 我的青春恋爱物语果然有问题。完   正在更新中...
 lazyloadImg: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  归档:
-    {
-      path: /archives,
-      fa: fa-archive faa-shake,
-      submenus:
-        {
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: {
           #指定 hexo_sakuru/public/ 下资源读取，fa是配置的对应图标
           技术: { path: /categories/技术/, fa: fa-code },
           生活: { path: /categories/生活/, fa: fa-file-text-o },
           资源: { path: /categories/资源/, fa: fa-cloud-download },
           随想: { path: /categories/随想/, fa: fa-commenting-o },
           转载: { path: /categories/转载/, fa: fa-book },
-          #test: { path: /categories/test/, fa: fa-book },
-        },
-    }
+        } }
+  #test: { path: /categories/test/, fa: fa-book },
   清单:
     {
       path: javascript:;,
@@ -92,31 +86,26 @@ startdash:
       desc: 博主的github,
       img: /img/yukino/dash/1.png,
     }
-  - {
-      url: /,
-      title: ACG,
-      desc: 二次元,
-      img: /img/yukino/dash/3.png,
-    }
+  - { url: /, title: ACG, desc: 二次元, img: /img/yukino/dash/3.png }
 
 # your site build time or founded date
 siteBuildingTime: 06/04/2020
 
 #social  url, img PC端配置
 social:
-  github: { url: https://github.com/Yukino831143, img: /img/social/github.png }
-  jianshu:
-    {
-      url: https://www.jianshu.com/u/76c463fb3f6a,
-      img: /img/social/jianshu.png,
-    }
+  github: { url: /#, img: /img/social/github.png }
+  jianshu: { url: /#, img: /img/social/jianshu.png }
   sina: { url: /#, img: /img/social/sina.png }
   wangyiyun: { url: /#, img: /img/social/wangyiyun.png }
   zhihu: { url: /#, img: /img/social/zhihu.png }
   email: { url: /#, img: /img/social/email.svg }
   wechat:
     #{ url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png }
-    { url: /#, qrcode: /img/yukino/social/wechat.png, img: /img/social/wechat.png }
+    {
+      url: /#,
+      qrcode: /img/yukino/social/wechat.png,
+      img: /img/social/wechat.png,
+    }
 #social  url, img 移动端配置
 msocial:
   github: { url: https://github.com/Yukino831143, fa: fa-github, color: 333 }
@@ -139,7 +128,7 @@ donate:
 movies:
   url: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/video
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: yukino.flv
+  name: yukino.mp4
 
 aplayer:
   id: 363423188
