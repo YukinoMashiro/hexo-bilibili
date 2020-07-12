@@ -13,7 +13,8 @@ tags:
   - 悦读
 keywords: Sakura
 description: hexo-sakura主题使用教程
-photos: https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png
+photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/dash/1.png #首页的文章的封面图
+banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 
 hexo-theme-sakura 主题 [English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)

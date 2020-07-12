@@ -20,23 +20,26 @@ menus:
           #指定 hexo_sakuru/public/ 下资源读取，fa是配置的对应图标
           技术: { path: /categories/技术/, fa: fa-code },
           生活: { path: /categories/生活/, fa: fa-file-text-o },
-          资源: { path: /categories/资源/, fa: fa-cloud-download },
+          #资源: { path: /categories/资源/, fa: fa-cloud-download },
           随想: { path: /categories/随想/, fa: fa-commenting-o },
-          转载: { path: /categories/转载/, fa: fa-book },
-        } }
-  #test: { path: /categories/test/, fa: fa-book },
-  清单:
-    {
-      path: javascript:;,
-      fa: fa-list-ul faa-vertical,
-      submenus:
-        {
-          书单: { path: /tags/悦读/, fa: fa-th-list faa-bounce },
-          番组: { path: /bangumi/, fa: fa-film faa-vertical },
+          #转载: { path: /categories/转载/, fa: fa-book },
+          番剧: { path: /categories/番剧/, fa: fa-film faa-vertical },
+          读书: { path: /categories/读书/, fa: fa-th-list faa-bounce },
           歌单: { path: /music/, fa: fa-headphones },
-          图集: { path: /tags/图集/, fa: fa-photo },
-        },
-    }
+        } }
+
+  # 清单:
+  #   {
+  #     path: javascript:;,
+  #     fa: fa-list-ul faa-vertical,
+  #     submenus:
+  #       {
+  #         书单: { path: /tags/悦读/, fa: fa-th-list faa-bounce },
+  #         番组: { path: /bangumi/, fa: fa-film faa-vertical },
+  #         歌单: { path: /music/, fa: fa-headphones },
+  #         图集: { path: /tags/图集/, fa: fa-photo },
+  #       },
+  #   }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
