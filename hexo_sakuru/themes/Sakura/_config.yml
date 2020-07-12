@@ -115,8 +115,8 @@ social:
   zhihu: { url: /#, img: /img/social/zhihu.png }
   email: { url: /#, img: /img/social/email.svg }
   wechat:
-    { url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png }
-
+    #{ url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png }
+    { url: /#, qrcode: /img/yukino/social/wechat.png, img: /img/social/wechat.png }
 #social  url, img 移动端配置
 msocial:
   github: { url: https://github.com/Yukino831143, fa: fa-github, color: 333 }
