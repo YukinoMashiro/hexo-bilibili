@@ -1819,7 +1819,9 @@ i.iconfont.hotpost {
     border-radius:0 10px 10px 0
 }
 .post-thumb a img {
-    width:100%;
+    /* 修改为了使文章的预览封面图处于合适的位置和尺寸 */
+    /* width:100%; */
+    width:70%;
     height:100%;
     object-fit:cover;
     pointer-events:none;
