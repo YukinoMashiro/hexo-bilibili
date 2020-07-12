@@ -41,7 +41,7 @@ menus:
   #       },
   #   }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
-  友人帐: { path: /links/, fa: fa-link faa-shake }
+  #友人帐: { path: /links/, fa: fa-link faa-shake }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
   关于:
     {
