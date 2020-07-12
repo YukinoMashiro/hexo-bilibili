@@ -13,7 +13,7 @@ tags: #文章标签
   - 悦读
 keywords: hachiman #这个暂时没找到用户
 description: hexo-sakura主题使用教程 #首页文章简介
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/dash/1.png #首页的文章的封面图
+photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/article_cover/ #首页的文章的封面图
 banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 
