@@ -122,16 +122,16 @@ msocial:
     }
 
 donate:
-  paypal: https://www.paypal.me/hojuncn
-  alipay: /img/custom/donate/AliPayQR.jpg
-  wechat: /img/custom/donate/WeChanQR.jpg
-  wechatSQ: /img/custom/donate/WeChanSQ.jpg
+  paypal: /#
+  alipay: /img/yukino/appreciation/aplipay.png
+  wechat: /img/yukino/appreciation/wechat.JPG
+  wechatSQ: /img/yukino/appreciation/wechat.JPG
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
   url: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/video
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
-  name: yukino.mp4
+  name: yukino_360p.mp4
 
 aplayer:
   id: 363423188
