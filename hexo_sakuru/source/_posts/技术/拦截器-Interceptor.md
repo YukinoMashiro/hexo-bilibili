@@ -1,7 +1,7 @@
 ---
 title: 拦截器-Interceptor
 author: Yukino
-avatar: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/avatar/a26.ico #头像地址
+avatar: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/avatar/a26.ico #头像地址
 authorLink: /# #头像跳转链接
 authorAbout: NULL
 authorDesc: NULL
@@ -12,8 +12,8 @@ tags: #文章标签
   - Spring MVC
 keywords: 拦截器-Interceptor #这个暂时没找到用户
 description: 拦截器-Interceptor #首页文章简介
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/article_cover/ #首页的文章的封面图
-banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/article_cover/ #首页的文章的封面图
+banner: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 - 拦截器(Interceptor)用于对URL请求进行前置/后置过滤
 - Interceptor与Filter用途相似，但实现方式不同
@@ -182,7 +182,7 @@ public class MyInterceptor1 implements HandlerInterceptor {
 `http://localhost:8080/restful/persons-目标处理成功`
 `http://localhost:8080/restful/persons-响应内容已产生-1`
 `http://localhost:8080/restful/persons-响应内容已产生`
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020014438.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020014438.png)
 
 # 3.用户流量拦截器
 1. 引入logback
@@ -264,4 +264,4 @@ public class AccessHistoryInterceptor implements HandlerInterceptor {
 }
 ```
 # 4.Spring MVC处理流程
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020014523.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020014523.png)

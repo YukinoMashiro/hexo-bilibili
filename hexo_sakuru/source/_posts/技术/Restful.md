@@ -1,7 +1,7 @@
 ---
 title: Restful风格
 author: Yukino
-avatar: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/avatar/a26.ico #头像地址
+avatar: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/avatar/a26.ico #头像地址
 authorLink: /# #头像跳转链接
 authorAbout: NULL
 authorDesc: NULL
@@ -12,8 +12,8 @@ tags: #文章标签
   - Spring MVC
 keywords: Restful风格 #这个暂时没找到用户
 description: Restful风格 #首页文章简介
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/article_cover/ #首页的文章的封面图
-banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/article_cover/ #首页的文章的封面图
+banner: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 # 0. 基础介绍 
 **Restful开发规范**
@@ -26,7 +26,7 @@ banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #�
     
 **Refstful命名要求**
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020014032.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020014032.png)
 
 # 1.环境准备
 ```Xml
@@ -192,7 +192,7 @@ banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #�
 </body>
 </html>
 ```
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020014120.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020014120.png)
 
 ```Java
 @RestController
@@ -237,7 +237,7 @@ public class RestfulController {
 - 两者最大区别是非简单请求发送前需要发送预检请求
 
 **非简单请求**
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020014155.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020014155.png)
 
 ```Html
 <script>
@@ -409,7 +409,7 @@ public class Person {
 - 浏览器Console看到 **Access-Control-Allow-Origin**就代表跨域了
 
 **同源策略示例**
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020014231.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020014231.png)
 
 **HTML中允许跨域的标签**
 - `<img>` - 显示远程图片

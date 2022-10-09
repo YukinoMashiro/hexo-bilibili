@@ -218,24 +218,24 @@ function imgError(ele, type) {
       if (ele.src.includes("https://cn.gravatar.com/avatar")) {
         ele.src = ele.src.replace(
           "https://cn.gravatar.com/avatar/",
-          "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/gravatar.jpg"
+          "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/other/gravatar.jpg"
         );
       } else {
         ele.src =
-          "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/default_avatar.jpg";
+          "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/other/default_avatar.jpg";
       }
       break;
     case 2:
       ele.src =
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/default_gavatar.jpg";
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/other/default_gavatar.jpg";
       break;
     case 3:
       ele.src =
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/image-404.png";
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/other/image-404.png";
       break;
     default:
       ele.src =
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/image-404.png";
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/other/image-404.png";
   }
 }
 mashiro_global.post_list_show_animation = new (function () {
@@ -538,15 +538,15 @@ function checkBgImgCookie() {
   if (bgurl != "") {
     if (
       bgurl ==
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/sakura.png" ||
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/sakura.png" ||
       bgurl ==
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/plaid.jpg" ||
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/plaid.jpg" ||
       bgurl ==
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/star.png" ||
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/star.png" ||
       bgurl ==
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/point.png" ||
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/point.png" ||
       bgurl ==
-        "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/little-monster.png"
+        "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/little-monster.png"
     ) {
       mashiro_global.variables.skinSecter = true;
       mashiro_global.variables.isNight = false;
@@ -633,23 +633,23 @@ $(document).ready(function () {
   }
   changeBG(
     "#sakura-bg",
-    "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/sakura.png"
+    "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/sakura.png"
   );
   changeBG(
     "#gribs-bg",
-    "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/plaid.jpg"
+    "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/plaid.jpg"
   );
   changeBG(
     "#pixiv-bg",
-    "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/star.png"
+    "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/star.png"
   );
   changeBG(
     "#KAdots-bg",
-    "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/point.png"
+    "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/point.png"
   );
   changeBG(
     "#totem-bg",
-    "https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/themebg/little-monster.png"
+    "https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/themebg/little-monster.png"
   );
   changeBGnoTrans("#bing-bg", "https://api.shino.cc/bing/");
   $(".skin-menu #white-bg").click(function () {
@@ -674,7 +674,7 @@ $(document).ready(function () {
     mashiro_global.variables.isNight = true;
     $("body").css(
       "background-image",
-      "url(https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/other/starry_sky.png)"
+      "url(https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/other/starry_sky.png)"
     );
     $(".blank").css("background-color", "rgba(255,255,255,.8)");
     $("#night-mode-cover").css("visibility", "visible");

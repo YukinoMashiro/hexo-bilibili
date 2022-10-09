@@ -4,7 +4,7 @@ date: 2018-12-12 22:14:36
 keywords: 关于
 description:
 comments: false
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/banner/about.jpg
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/banner/about.jpg
 ---
 
 {% raw %}

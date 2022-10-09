@@ -4,7 +4,7 @@ date: 2018-12-20 23:13:48
 keywords: 留言板
 description:
 comments: true
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/banner/comment.jpg
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/banner/comment.jpg
 ---
 
 {% raw %}

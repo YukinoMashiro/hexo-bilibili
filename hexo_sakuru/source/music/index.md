@@ -4,7 +4,7 @@ date: 2018-12-20 23:14:28
 keywords: 喜欢的音乐
 description:
 comments: false
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/banner/music.jpg
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/banner/music.jpg
 ---
 
 {% raw %}

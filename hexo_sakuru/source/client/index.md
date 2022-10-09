@@ -4,7 +4,7 @@ date: 2018-12-20 23:13:35
 keywords: Android客户端
 description:
 comments: false
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/banner/client.jpg
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/banner/client.jpg
 ---
 
 直接下载 or 扫码下载：

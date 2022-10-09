@@ -1,13 +1,13 @@
 @font-face {
   font-family: "socialshare";
-  src: url("https://cdn.jsdelivr.net/gh/Yukino831143/CDN/fonts/sharejs/iconfont.eot");
-  src: url("https://cdn.jsdelivr.net/gh/Yukino831143/CDN/fonts/sharejs/iconfont.eot?#iefix")
+  src: url("https://cdn.staticaly.com/gh/Yukino831143/CDN@master/fonts/sharejs/iconfont.eot");
+  src: url("https://cdn.staticaly.com/gh/Yukino831143/CDN@master/fonts/sharejs/iconfont.eot?#iefix")
       format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/Yukino831143/CDN/fonts/sharejs/iconfont.woff")
+    url("https://cdn.staticaly.com/gh/Yukino831143/CDN@master/fonts/sharejs/iconfont.woff")
       format("woff"),
-    url("https://cdn.jsdelivr.net/gh/Yukino831143/CDN/fonts/sharejs/iconfont.ttf")
+    url("https://cdn.staticaly.com/gh/Yukino831143/CDN@master/fonts/sharejs/iconfont.ttf")
       format("truetype"),
-    url("https://cdn.jsdelivr.net/gh/Yukino831143/CDN/fonts/sharejs/iconfont.svg#iconfont")
+    url("https://cdn.staticaly.com/gh/Yukino831143/CDN@master/fonts/sharejs/iconfont.svg#iconfont")
       format("svg");
 }
 

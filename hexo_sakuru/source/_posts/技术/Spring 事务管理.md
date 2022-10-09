@@ -1,7 +1,7 @@
 ---
 title: Spring 事务管理
 author: Yukino
-avatar: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/avatar/a26.ico #头像地址
+avatar: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/avatar/a26.ico #头像地址
 authorLink: /# #头像跳转链接
 authorAbout: NULL
 authorDesc: NULL
@@ -12,8 +12,8 @@ tags: #文章标签
   - spring
 keywords: Spring 事务管理 #这个暂时没找到用户
 description: Spring 事务管理 #首页文章简介
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/article_cover/ #首页的文章的封面图
-banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/article_cover/ #首页的文章的封面图
+banner: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 **什么是事务？**
 
@@ -22,32 +22,32 @@ banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #�
 **事务并发问题**
 - 脏读
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201018152637.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201018152637.png)
 
 解决方法：只能读取永久数据，不能读取内存中的数据 
 
 - 不可重复读
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201018152727.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201018152727.png)
 
 解决方法：锁行 
 - 幻读
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201018154446.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201018154446.png)
 
 解决方法：锁表
 
 **Mysql事务隔离级别**
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201018152949.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201018152949.png)
 
 **JDBC事务隔离级别**
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201018153050.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201018153050.png)
 
 **事务传播行为**
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201018153209.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201018153209.png)
 # 0. 公共代码
 ```XML
 <!--spring-dao.xml-->

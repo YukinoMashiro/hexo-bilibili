@@ -1,7 +1,7 @@
 ---
 title: Docker
 author: Yukino
-avatar: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/avatar/a26.ico #头像地址
+avatar: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/avatar/a26.ico #头像地址
 authorLink: /# #头像跳转链接
 authorAbout: NULL
 authorDesc: NULL
@@ -12,8 +12,8 @@ tags: #文章标签
   - docker
 keywords: Docker #这个暂时没找到用户
 description: Docker #首页文章简介
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/article_cover/ #首页的文章的封面图
-banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/article_cover/ #首页的文章的封面图
+banner: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 # 1. Docker 安装
 
@@ -25,13 +25,13 @@ banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #�
 
 `docker run hello-world`
 
-![image-20210111215654933](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/image-20210111215654933.png)
+![image-20210111215654933](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/image-20210111215654933.png)
 
 2. 查看镜像
 
 `docker images`
 
-![image-20210111215953452](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/image-20210111215953452.png)
+![image-20210111215953452](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/image-20210111215953452.png)
 
 
 
@@ -579,7 +579,7 @@ docker cp f03fddef487a:/home/tmp.md .
 
 ### 2.2.6 docker 命令小结
 
- ![2018071915491757](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/2018071915491757.png)
+ ![2018071915491757](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/2018071915491757.png)
 
 ### 2.2.7 docker tomcat启动
 
@@ -1007,11 +1007,11 @@ drwxr-xr-x  20 root root 4096 Dec  4 17:37 var
 
 - 进入阿里云容器镜像服务，创建镜像仓库
 
-![image-20210114225137608](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/image-20210114225137608.png)
+![image-20210114225137608](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/image-20210114225137608.png)
 
-![image-20210114225202674](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/image-20210114225202674.png)
+![image-20210114225202674](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/image-20210114225202674.png)
 
-![image-20210114225233923](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/image-20210114225233923.png)
+![image-20210114225233923](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/image-20210114225233923.png)
 
 - push 到 阿里云的步骤参考 阿里云里面的操作步骤即可
 

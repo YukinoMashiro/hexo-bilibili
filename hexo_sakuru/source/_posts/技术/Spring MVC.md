@@ -1,7 +1,7 @@
 ---
 title: Spring MVC
 author: Yukino
-avatar: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/avatar/a26.ico #头像地址
+avatar: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/avatar/a26.ico #头像地址
 authorLink: /# #头像跳转链接
 authorAbout: NULL
 authorDesc: NULL
@@ -12,8 +12,8 @@ tags: #文章标签
   - Spring MVC
 keywords: Spring MVC #这个暂时没找到用户
 description: Spring MVC #首页文章简介
-photos: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/article_cover/ #首页的文章的封面图
-banner: https://cdn.jsdelivr.net/gh/Yukino831143/CDN/img/yukino/banner/1.jpg #文章详情页的banner
+photos: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/article_cover/ #首页的文章的封面图
+banner: https://cdn.staticaly.com/gh/Yukino831143/CDN@master/img/yukino/banner/1.jpg #文章详情页的banner
 ---
 # 1.环境配置
 ```Xml
@@ -192,7 +192,7 @@ public class User {
 
 </div>
 ```
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020013601.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020013601.png)
 
 ```Java
 @Controller
@@ -310,7 +310,7 @@ public class Form {
 - delivery.mobile
 - delivery.address
 
-![image](https://cdn.jsdelivr.net/gh/Yukino831143/CDN/blogImageHosting/20201020013648.png)
+![image](https://cdn.staticaly.com/gh/Yukino831143/CDN@master/blogImageHosting/20201020013648.png)
 
 ```Java
 public class Delivery {
